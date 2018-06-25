@@ -1,0 +1,10 @@
+.DS_STORE
+node_modules
+build/
+remote-repo/
+.module-cache
+*.log*
+*.iml
+.vscode
+*.swp
+*.swo
