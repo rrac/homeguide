@@ -18,6 +18,21 @@ class Access extends Component {
         </Row>
         <Row>
           <Col xs="5" sm="5">
+            <Image src="/assets/doorclosed.png" thumbnail />
+            <Image src="/assets/dutchdooropen.png" thumbnail />
+          </Col>
+          <Col xs="7" sm="7">
+            <p>
+              The front door is a "Dutch" type door. At least that is what they
+              call it here. It has a top part that opens separately from the
+              bottom that allows air and light to flow in. Because the door is
+              in the shade, when the top part is open together with other
+              windows or the front French door, cool air can circulate easier.
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="5" sm="5">
             <Image src="/assets/lock.png" thumbnail />
           </Col>
           <Col xs="7" sm="7">
