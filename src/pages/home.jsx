@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { Grid, Row, Col, Image, Button, Jumbotron } from "react-bootstrap";
+import { Grid, Row, Col, Image, Jumbotron } from "react-bootstrap";
 import styled from "styled-components";
 
 const JumboH1 = styled.div`

@@ -12,7 +12,8 @@ class BedroomThree extends Component {
           <Col xs="7" sm="7">
             <p>
               Bedroom Three sleeps two. What is initially visible is a "day-bed"
-              that has a trundle underneath, that you can pull out.
+              that has a trundle underneath, that you can pull out. A large
+              built-in closet to hang your clothes and shelving is available.
             </p>
           </Col>
         </Row>
@@ -40,7 +41,7 @@ class BedroomThree extends Component {
               Bedroom Three also functions as a Den/Small Office and is fully
               equipped with computer and scanning system. It has a great Bose
               sound system. The guest account is always active. When you log
-              out, all files, cache, etc ... is automatically deleted for your
+              out, all files, cache, etc ... are automatically deleted for your
               convenience (An Apple MacOS feature).
             </p>
           </Col>

@@ -8,7 +8,6 @@ import {
   Image
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { styled } from "styled-components";
 import "./nav.css";
 
 class MyNav extends Component {
