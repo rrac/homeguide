@@ -8,6 +8,7 @@ import {
   Image
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import TranslateComp from './translate';
 import "./nav.css";
 
 class MyNav extends Component {
@@ -41,6 +42,9 @@ class MyNav extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
+              <NavItem>
+                <TranslateComp />
+              </NavItem>
               <NavDropdown
                 eventKey={1}
                 title="Getting Around"
