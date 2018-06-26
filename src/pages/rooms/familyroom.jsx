@@ -18,7 +18,7 @@ class FamilyRoom extends Component {
         </Row>
         <Row>
           <Col xs="5" sm="5">
-            <Image src="/assets/familyroom_2" thumbnail />
+            <Image src="/assets/familyroom_2.png" thumbnail />
           </Col>
           <Col xs="7" sm="7">
             <p>
