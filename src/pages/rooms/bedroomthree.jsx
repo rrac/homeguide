@@ -42,7 +42,8 @@ class BedroomThree extends Component {
               equipped with computer and scanning system. It has a great Bose
               sound system. The guest account is always active. When you log
               out, all files, cache, etc ... are automatically deleted for your
-              convenience (An Apple MacOS feature).
+              convenience (An Apple MacOS feature). Please note - NEVER shut the
+              system down, just log-off.
             </p>
           </Col>
         </Row>

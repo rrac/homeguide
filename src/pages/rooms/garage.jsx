@@ -17,20 +17,23 @@ class Garage extends Component {
               the car prior to parking (except maybe the backseat passengers.
               The cabinetry has been configured to allow the driver's door from
               either car to open their first bracket without hitting the cabinet
-              doors. An infra red beam at each car locations guides you to park
-              with ease (well, maybe some slow practice might be required).
+              doors. The cabinet door also open fully without hitting any of the
+              cars, if you parked sufficiently close to the passenger side wall.
+              An infra red beam at each car locations guides you to park with
+              ease (well, maybe some slow practice might be required initially).
             </p>
             <p>
               When stepping down into the garage from Bedroom Three, the cabinet
               closest to you is an overflow pantry. Mostly dry goods - toilet
-              paper, paper towels, canned good, wine, etc ... Basically any
-              products that don't go bad and for which no storage is available
-              in the house.
+              paper, paper towels, canned good, wine, etc ... Basically
+              non-perishable consumable products for which no storage is
+              available in the house.
             </p>
             <p>
               To your left as you step down, there is a double door refrigerator
               with a large freezer drawer. We mostly keep cheeses, butter, water
-              and/or refreshments in there.
+              and/or refreshments in there when the kitchen regrigerator gets
+              overloaded.
             </p>
           </Col>
         </Row>
