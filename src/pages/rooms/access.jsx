@@ -39,7 +39,7 @@ class Access extends Component {
             <p>
               As you approach the front door, you will notice that there is a
               black/shiny lock that will be completely black. You will only
-              notice the small silver dot with the name 'Yale' in it. Touch the
+              notice the small silver dot with the name 'Yale'. Touch the
               silver logo and the touch screen will light up and show the keypad
               numbers. Enter the 5 last digits of your mobile phone number (for
               some guests it might be their landline number). Finish by pressing
