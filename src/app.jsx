@@ -15,6 +15,7 @@ import BedroomTwo from "./pages/rooms/bedroomtwo";
 import BedroomThree from "./pages/rooms/bedroomthree";
 import BathroomTwo from "./pages/rooms/bathroomtwo";
 import Garage from "./pages/rooms/garage";
+import Contacts from "./pages/contacts";
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
           <Route path="/pages/rooms/bedroomthree" component={BedroomThree} />
           <Route path="/pages/rooms/bathroomtwo" component={BathroomTwo} />
           <Route path="/pages/rooms/garage" component={Garage} />
+          <Route path="/pages/contacts" component={Contacts} />
         </div>
       </Router>
     );
