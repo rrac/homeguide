@@ -35,7 +35,7 @@ class Contacts extends Component {
             </p>
             <p>1610 West Coast Hwy</p>
             <p>Newport Beach, CA 92663</p>
-            <p>(949) 722-8152</p>
+            <p><a href="tel:(949) 722-8152">Call Office</a> @ (949) 722-8152</p>
             <p>
               <a href="mailto:newportvet@aol.com">Dr. Cohen email</a>
             </p>

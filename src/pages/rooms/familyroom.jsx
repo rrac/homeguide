@@ -31,8 +31,14 @@ class FamilyRoom extends Component {
             <p>
               The following components are present and operative:
               <ul>
-                <li>Yamaha Receiver - drives all the sound for all other components</li>
-                <li>Apple TV (4th Gen) - used for streaming Netflix, Amazon Prime and listening to Pandora Radio primarily</li>
+                <li>
+                  Yamaha Receiver - drives all the sound for all other
+                  components
+                </li>
+                <li>
+                  Apple TV (4th Gen) - used for streaming Netflix, Amazon Prime
+                  and listening to Pandora Radio primarily
+                </li>
                 <li>A Sony DVD player for watching movies</li>
                 <li>An HP Laserprinter in the left of the cabinet</li>
               </ul>
@@ -42,19 +48,71 @@ class FamilyRoom extends Component {
         <Row>
           <Col xs="5" sm="5">
             <Image src="/assets/familyroom_3.png" thumbnail />
-
           </Col>
           <Col xs="7" sm="7">
-            <p />
+            <p>
+              This is where we hang out generally when indoors. Although the
+              outdoors beckons all the time, in the evening we either read, surf
+              the web or watch a streaming item (ranges from a good movie to a
+              good British Master Piece Theater series to a good documentary and
+              when Jan is not home, I will search for foreign language movies,
+              mostly French on Netflix, they have a fairly extensive selection.)
+              With an increase in home exchange activity, we added the regular
+              TV channel package to a line-up of mostly streaming with Apple TV
+              using NetFlix or Amazon Prime (both applications are run from
+              within Apple TV). For regular TV is 300 channels, select a channel
+              number 1000 + the number of the channel you would like to watch to
+              see it in HD. The TV mounted above the mantle has a slight angle
+              to it to make it easier to watch from the other end of the room,
+              however, if you grab the bottom of the TV and pull it forward, it
+              will come out and down - it may be awkward at first because it
+              will come down a few feet - which makes it so much easier to watch
+              without getting a strained neck. When finished, just grab it at
+              the front - and while pushing slightly backwards and upwards at
+              the same time, it will move back into its position above the
+              mantle. Doing it with both hands makes it even easier. Quirk - the
+              entertainment controller (Logitech device) is notoriously slow
+              (very slow), it uses both infra red to signal devices and
+              bluetooth wireless communication. We leave the sliding door on the
+              side of the components cabinet open because of the shear heat
+              generated in the cabinet. But just move them away if you printed
+              something, then move them back. The controller itself has a number
+              of buttons that have icons on them that actually do what they are
+              supposed to do - Music (which will only play internet music from
+              the receiver), Watch a Movie will switch the Sony CD/DVD player on
+              and the TV screen should turn blue (ready to insert a DVD), Watch
+              TV will switch to the local ATT U-verse feed for any of the TV
+              stations you would like to watch, the 'More Activities' button
+              activates the small color screen on the controller with 2
+              activities per page, use the left or right arrow button just below
+              the screen to navigate through the pages. Within the "Use Apple
+              TV" selection, we are signed up for Pandora, Netflix and Amazon
+              Prime. Feel free to add any of your favorite Pandora Stations to
+              listen to.
+            </p>
+            <p>
+              The fireplace is gas based with artificial logs. You don't need to
+              open the valve. You will see the pilot light on, at the right
+              behind the screen. The small covered device to the right of the
+              logs is the ignitor/controlller of the gas logs. The fire screen is
+              heavy, tilt if forward to give access to the valve and turn the
+              knob counter clockwise to turn up the fire. You will feel some
+              resistance when turning the knob, you will hear each click as the
+              fire gets higher and higher. Adjust it to your liking. When done,
+              turn the knob all the way back clockwise until you cannot go any
+              further - the fire will subside and no gas will be supplied
+              anymore. If tilting the screen forward does not work for you, just
+              remove the screen, be careful, because it is heavy, put it back
+              when the fire is going, since it is gas, you don't need to put the
+              screen all the way back into it's cubbyhole.
+            </p>
           </Col>
         </Row>
         <Row>
           <Col xs="5" sm="5">
             <Image src="/assets/familyroom_4.png" thumbnail />
           </Col>
-          <Col xs="7" sm="7">
-            <p />
-          </Col>
+          <Col xs="7" sm="7" />
         </Row>
       </Grid>
     );

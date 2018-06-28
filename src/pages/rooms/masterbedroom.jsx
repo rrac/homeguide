@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Row, Col, Image } from "react-bootstrap";
 
-class Garage extends Component {
+class MasterBedroom extends Component {
   render() {
     return (
       <Grid>
@@ -20,4 +20,4 @@ class Garage extends Component {
   }
 }
 
-export default Garage;
+export default MasterBedroom;
