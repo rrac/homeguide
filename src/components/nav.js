@@ -69,8 +69,8 @@ class MyNav extends Component {
                 <MenuItem
                   eventKey={1.4}
                   componentClass={Link}
-                  href="/pages/rooms/diningarea"
-                  to="/pages/rooms/diningarea">
+                  href="/pages/rooms/dining"
+                  to="/pages/rooms/dining">
                   Dining Area
                 </MenuItem>
                 <MenuItem

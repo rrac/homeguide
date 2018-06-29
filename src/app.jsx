@@ -7,7 +7,7 @@ import Us from "./pages/us";
 import Access from "./pages/rooms/access";
 import Hallway from "./pages/rooms/hallway";
 import FamilyRoom from "./pages/rooms/familyroom";
-import DiningArea from "./pages/rooms/dining";
+import Dining from "./pages/rooms/dining";
 import Kitchen from "./pages/rooms/kitchen";
 import MasterBedroom from "./pages/rooms/masterbedroom";
 import MasterBathroom from "./pages/rooms/masterbathroom";
@@ -29,7 +29,7 @@ class App extends Component {
           <Route path="/pages/rooms/access" component={Access} />
           <Route path="/pages/rooms/hallway" component={Hallway} />
           <Route path="/pages/rooms/familyroom" component={FamilyRoom} />
-          <Route path="/pages/rooms/dining" component={DiningArea} />
+          <Route path="/pages/rooms/dining" component={Dining} />
           <Route path="/pages/rooms/kitchen" component={Kitchen} />
           <Route path="/pages/rooms/masterbedroom" component={MasterBedroom} />
           <Route path="/pages/rooms/masterbathroom" component={MasterBathroom} />

@@ -5,24 +5,31 @@ import styled from "styled-components";
 const ALink = styled.a`
   color: palevioletred;
   text-decoration: none;
-  cursor: auto;
+  cursor: pointer;
 
   &:hover {
     text-decoration: none;
   }
-  &visited {
+  &:visited {
+    color: palevioletred;
     text-decoration: none;
   }
-  &.selected {
+  &:selected {
+    color: palevioletred;
     text-decoration: none;
   }
-  &.inactive {
+  &:inactive {
+    color: palevioletred;
+    text-decoration: none;
+  }
+  &:active {
+    color: palevioletred;
     text-decoration: none;
   }
 `;
 
 const PwSpace = styled.p`
-  margin-top: 4em;
+  margin-top: 3em;
 `;
 
 class Locations extends Component {
@@ -163,9 +170,9 @@ class Locations extends Component {
                 <p>
                   This store has some advantages in parking (the structure
                   nearby keeps the car cool), other activities can be combined,
-                  Fashion Island is an open shopping area, seating areas around,
-                  koi pond, Tesla Store, Apple Store, nice comfortable theatres
-                  (cinemas) ... <br />
+                  it is located right at Fashion Island, which is an open air
+                  shopping area, it seating areas around, koi pond, Tesla Store,
+                  Apple Store, nice comfortable theatres (cinemas) ... <br />
                   <ALink
                     href="https://www.wholefoodsmarket.com/stores/newport"
                     target="_blank"
@@ -236,7 +243,7 @@ class Locations extends Component {
                 <p>
                   Lots of people are accustomed to Mexican food around here.
                   Well, me not so much. However, if I had to make a choice of
-                  Mexican, it would definitely be the Serena Grill in Laguna
+                  Mexican, it would definitely be La Sirena Grill in Laguna
                   Beach. It's located on PCH, across from the{" "}
                   <ALink
                     href="https://www.montagehotels.com/lagunabeach"
@@ -244,9 +251,10 @@ class Locations extends Component {
                   >
                     Montage
                   </ALink>{" "}
-                  (a supurb resort completely built in California Crafstman
+                  (a very nice resort completely built in California Crafstman
                   Bungalow Style .. it is a great place to wonder around,
-                  overlooking the Pacific Ocean and then, head for Serena Grill:<br />
+                  overlooking the Pacific Ocean and then, head for La Sirena
+                  Grill, they serve fresh Mex(eco) food:<br />
                   <ALink
                     href="http://www.lasirenagrill.com/SouthLaguna/"
                     target="_blank"
@@ -255,13 +263,182 @@ class Locations extends Component {
                   </ALink>
                 </p>
                 <PwSpace>
-                  There are a tremendous amount of eateries and more formal
-                  restaurants (although formal around here is stretched quite a
-                  bit) are in walking distance from our home, some are pretty good
-                  (it's of course a matter of opinion) ... here is a short list,
-                  I will put a number next to them to indicate walkability (10=
-                  very walkable, 0=need car, 5=maybe car is best):
+                  There are so many eateries and restaurants in walking distance
+                  from our home or a few minutes away by car ... here is a short
+                  list you can explore and look up, I will put a number next to
+                  them to indicate walkability (10= very walkable, 0=need car,
+                  5=maybe car is best):
                 </PwSpace>
+                <div>
+                  <ul>
+                    <li>Pirozzi (9)</li>
+                    <li>Banderas (10)</li>
+                    <li>The Quiet Woman (10)</li>
+                    <li>
+                      The Five Crown (9) ... has a Pub called Side Door
+                      (reasonable pub food)
+                    </li>
+                    <li>Mayur Cuisine of India (9)</li>
+                    <li>Gulfstream (8)</li>
+                    <li>Tommy Bahamas (8)</li>
+                  </ul>
+                </div>
+                <p>
+                  I am adding a Google Map link of our immediate surroundings,
+                  so you get a good view:
+                </p>
+                <p>
+                  <ALink
+                    href="https://www.google.com/maps/search/Restaurants/@33.6002013,-117.8756643,16z"
+                    target="_blank"
+                  >
+                    Map showing nearby small eateries and restaurants ...
+                  </ALink>
+                </p>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="5" sm="5">
+            <p>
+              <b>Live Music, Concert Halls ...</b>
+            </p>
+          </Col>
+          <Col xs="7" sm="7">
+            <p>
+              There are many live music places up and down the coast from our
+              home. I added a link that shows a number of them. I included a few
+              links to our Orange County music/theatre art center. That happens
+              to be across from an expansive shopping mall - South Coast Plaza:
+            </p>
+            <ul>
+              <li>
+                <p>
+                  <b>Live Music places nearby</b>
+                </p>
+                <p>
+                  Check their respective site for program and times<br />
+                  <ALink
+                    href="https://www.google.com/maps/search/live+music/@33.6148882,-117.8704722,12z"
+                    target="_blank"
+                  >
+                    Bars, pubs, restaurants ... with live music
+                  </ALink>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>Segerstrom Center for the Arts ...</b>
+                </p>
+                <p>
+                  Originally called the Orange County Performing Arts Center,
+                  this area is a complex of several interesting buildings built
+                  for the purpose of housing music, theatre and ballet
+                  performances. Not only is the architecture interesting, it has
+                  some massive sculptures installed on the different plazas that
+                  surround the area ... worth a visit, even just outside:<br />
+                  <ALink href="https://www.scfta.org/" target="_blank">
+                    Our local performing arts center ...
+                  </ALink>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <b>Some larger and/or better known venues ...</b>
+                </p>
+                <p>
+                  This list contains some classics, a few in OC (Orange County),
+                  others more concentrated in Los Angeles, check their
+                  individual web site for additional info ... <br />
+                  <ALink href="https://thecoachhouse.com/" target="_blank">
+                    The Coach House (in Orange County) ...
+                  </ALink>
+                </p>
+                <p>
+                  House of Blues concert venue in Anaheim (close to Disneyland)
+                  ... <br />
+                  <ALink
+                    href="http://www.houseofblues.com/anaheim"
+                    target="_blank"
+                  >
+                    House of Blues (in Orange County) ...
+                  </ALink>
+                </p>
+                <p>
+                  Disney Concert Hall (which is unfortunately not operating
+                  during the summer months, the normal concert activity starts
+                  in September) ... however, a link is added below for a no-miss
+                  activity while here and that is the Hollywood Bowl: <br />
+                  <ALink href="https://www.laphil.com/" target="_blank">
+                    Disney Concert Hall (Los Angeles) just the building is
+                    spectacular ! ...
+                  </ALink>
+                </p>
+                <p>
+                  Hollywood Bowl (Los Angeles) ... as I remarked, a no-miss
+                  experience, fun, good music, reasonable prices, pic-nic(able)
+                  ... a true LA venue, large, expansive ... <br />
+                  <ALink href="https://www.hollywoodbowl.com/" target="_blank">
+                    Hollywood Bowl (in the summer, don't miss it !) ...
+                  </ALink>
+                </p>
+                <p>
+                  For theater fans, a few quick links to sites covering the LA
+                  theater scene with always up to date info ... <br />
+                  <ALink
+                    href="https://www.discoverlosangeles.com/blog/discover-los-angeles-theater-scene"
+                    target="_blank"
+                  >
+                    Discover the Los Angeles Theater Scene ...
+                  </ALink>
+                  <br />
+                  <ALink
+                    href="https://www.timeout.com/los-angeles/theater/the-best-performing-arts-centers-and-theaters-in-los-angeles"
+                    target="_blank"
+                  >
+                    The best Performing Arts Centers in Los Angeles ...
+                  </ALink>
+                  <br />
+                  <ALink
+                    href="https://www.los-angeles-theatre.com/"
+                    target="_blank"
+                  >
+                    Los Angeles Theatre - an independent guide ...
+                  </ALink>
+                </p>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="5" sm="5">
+            <p>
+              <b>Amusement Parks</b>
+            </p>
+          </Col>
+          <Col xs="7" sm="7">
+            <p>
+              Southern California is no doubt the "Amusement Park" kingdom,
+              there is something for everyone's taste (or so they think) ...
+              however, personally my favorites are - San Diogo Zoo, Universal
+              Studios and Magic Mountain (these are all a day trip from our home
+              if you want to spend some quality time there particularly during
+              the summer)
+            </p>
+            <ul>
+              <li>
+                <p>
+                  <b>Nearby and/or day trip parks</b>
+                </p>
+                <p>
+                  <ALink
+                    href="https://www.google.com/search?rlz=1C5CHFA_enUS749US757&tbm=lcl&ei=g082W43UEc2GsAWXm6HAAQ&q=amusement+parks+near+me&oq=amusement+parks+near+me&gs_l=psy-ab.3...0.0.0.493425.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.WCgHE51Uaxo#rlfi=hd:;si:;mv:!1m3!1d450453.8667269812!2d-117.86912058710936!3d33.780692953132316!3m2!1i1495!2i815!4f13.1"
+                    target="_blank"
+                  >
+                    Map of Amusement Parks nearby ...
+                  </ALink>
+                </p>
               </li>
             </ul>
           </Col>

@@ -17,27 +17,39 @@ class Contacts extends Component {
                 traveling may necessitate contacting alternative, hopefully
                 local resources. Therefore, below a list of contacts aware of
                 our travels and on which you can rely to help you out. Either
-                just to provide you information, taking care of
-                Ruby in your absence or fixing things when things break.
+                just to provide you information, taking care of Ruby in your
+                absence or fixing things when things break.
               </b>
             </p>
           </Col>
         </Row>
         <Row>
           <Col xs="5" sm="5">
-            <b></b>
+            <b>Our immediate neighbors</b>
           </Col>
           <Col xs="7" sm="7">
             <p>
-              <b>Dr. & Mrs. Jeffrey Cohen</b> are our wonderful veterinary
-              specialist and care takers of our animals. They have everything on
-              file from us. Here is their information:
+              <b>Ron & Mary Shaeffer</b> own the property behind us. They have 2
+              daughters and 1 son, Olivia, Leah and Alexander. If they are not
+              on vacation, contact them if you have any questions:
             </p>
-            <p>1610 West Coast Hwy</p>
-            <p>Newport Beach, CA 92663</p>
-            <p><a href="tel:(949) 722-8152">Call Office</a> @ (949) 722-8152</p>
             <p>
-              <a href="mailto:newportvet@aol.com">Dr. Cohen email</a>
+              <a href="tel:(214) 213-4571">Call Ron</a> @ (214) 213-4571
+            </p>
+            <p>
+              <a href="tel:(702) 526-2836">Call Mary</a> @ (702) 526-2836
+            </p>
+            <p>
+              <b>Mike & Nancy DelSanto</b> own the property above us, but own
+              and live in a home behind us on 314 Larkspur. If they are not on
+              vacation, ask them any questions you may have. All our neighbors
+              are aware of your presence:
+            </p>
+            <p>
+              <a href="tel:(626) 827-7823">Call Mike</a> @ (626) 827-7823
+            </p>
+            <p>
+              <a href="tel:(626) 827-2223">Call Nancy</a> @ (626) 827-2223
             </p>
           </Col>
         </Row>
@@ -53,7 +65,9 @@ class Contacts extends Component {
             </p>
             <p>1610 West Coast Hwy</p>
             <p>Newport Beach, CA 92663</p>
-            <p><a href="tel:(949) 722-8152">Call Office</a> @ (949) 722-8152</p>
+            <p>
+              <a href="tel:(949) 722-8152">Call Office</a> @ (949) 722-8152
+            </p>
             <p>
               <a href="mailto:newportvet@aol.com">Dr. Cohen email</a>
             </p>
@@ -87,7 +101,9 @@ class Contacts extends Component {
             <p>
               <b>Ms. Marilynn Keller</b>
             </p>
-            <p>(949) 922-9077</p>
+            <p>
+              <a href="tel:(949) 922-9077">Call Marilynn</a> @ (949) 922-9077
+            </p>
             <p>
               <a href="mailto:kellerma@att.net">Marilynn Keller e-mail</a>
             </p>
@@ -113,7 +129,9 @@ class Contacts extends Component {
               <b>Nicholas Alam</b>
             </p>
             <p>Nick's Plumbing Services</p>
-            <p>(949) 338-5005</p>
+            <p>
+              <a href="tel:(949) 338-5005">Call Nick</a> @ (949) 338-5005
+            </p>
             <p>
               <a href="mailto:nickalam@gmail.com">Nick on Google e-mail</a>
             </p>
@@ -132,7 +150,9 @@ class Contacts extends Component {
             <p>
               <b>Julio Garcia</b>
             </p>
-            <p>(714) 383-0525</p>
+            <p>
+              <a href="tel:(714) 383-0525">Call Julio</a> @ (714) 383-0525
+            </p>
           </Col>
         </Row>
         <Row>
@@ -155,7 +175,9 @@ class Contacts extends Component {
             </p>
             <p>211 Marguerite Ave.</p>
             <p>Corona del Mar, CA 92625</p>
-            <p>(949) 722-8152</p>
+            <p>
+              <a href="tel:(949) 466-9980">Call Duane</a> @ (949) 466-9980
+            </p>
             <p>
               <a href="mailto:peggimc@gmail.com">Peggi's e-mail</a>
             </p>
@@ -177,7 +199,9 @@ class Contacts extends Component {
               are unsure about, you can call on Audrey to help out or she will
               have the information. Here is their information:
             </p>
-            <p>(909) 721-3636</p>
+            <p>
+              <a href="tel:(909) 721-3636">Call Audrey</a> @ (909) 721-3636
+            </p>
           </Col>
         </Row>
         <Row>
@@ -192,7 +216,9 @@ class Contacts extends Component {
             </p>
             <p>6B Liberty, Suit 150</p>
             <p>Aliso Viejo, CA 92656</p>
-            <p>(949) 305-7373</p>
+            <p>
+              <a href="tel:(949) 305-7373">Call Irene</a> @ (949) 305-7373
+            </p>
             <p>
               <a href="mailto:iparry@farmersagent.com">Irene Parry email</a>
             </p>
