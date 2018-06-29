@@ -9,7 +9,7 @@ class Hallway extends Component {
           <Col xs="5" sm="5">
             <Image src="/assets/hallway1.png" thumbnail />
             <Image src="/assets/hallway2.png" thumbnail />
-          </Col>
+            <Image src="/assets/hallway3.png" thumbnail />          </Col>
           <Col xs="7" sm="7">
             <p>
               The right hand light switch, inside, to the right of the front

@@ -11,8 +11,8 @@ class Access extends Component {
           </Col>
           <Col xs="7" sm="7">
             <p>
-              As you open the gate, walk right of the staircase going up to gain
-              access to the front door.
+              As you open the gate, walk down the path to the right of the
+              staircase to reach the front door.
             </p>
           </Col>
         </Row>
@@ -23,11 +23,11 @@ class Access extends Component {
           </Col>
           <Col xs="7" sm="7">
             <p>
-              The front door is a "Dutch" type door. At least that is what they
-              call it here. It has a top part that opens separately from the
-              bottom that allows air and light to flow in. Because the door is
-              in the shade, when the top part is open together with other
-              windows or the front French door, cool air can circulate easier.
+              The front door is a "Dutch" type door. From the inside, you will
+              see that you can open the top part separately from the bottom.
+              Because the door is always in the shade, when the top part is open
+              together with other windows or the front French door, cool air can
+              circulate easier.
             </p>
           </Col>
         </Row>
@@ -39,8 +39,8 @@ class Access extends Component {
             <p>
               As you approach the front door, you will notice that there is a
               black/shiny lock that will be completely black. You will only
-              notice the small silver dot with the name 'Yale'. Touch the
-              silver logo and the touch screen will light up and show the keypad
+              notice the small silver dot with the name 'Yale'. Touch the silver
+              logo and the touch screen will light up and show the keypad
               numbers. Enter the 5 last digits of your mobile phone number (for
               some guests it might be their landline number). Finish by pressing
               the check-mark in the lower right corner. The door will unlock
