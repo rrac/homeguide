@@ -21,6 +21,10 @@ const ALink = styled.a`
   }
 `;
 
+const PwSpace = styled.p`
+  margin-top: 4em;
+`;
+
 class Locations extends Component {
   render() {
     return (
@@ -250,10 +254,14 @@ class Locations extends Component {
                     La Sirena Grill near Montage on PCH ...
                   </ALink>
                 </p>
-                <p style={{marginTop: 3}}>
-                    There are a tremendous amount of eateries in walking distance from our home, some are pretty good (it's of course a matter of opinion) ... here is a short list, I will put a number next to them to indicate walkability (10= very walkable, 0=need car, 5=maybe car is best):
-
-                </p>
+                <PwSpace>
+                  There are a tremendous amount of eateries and more formal
+                  restaurants (although formal around here is stretched quite a
+                  bit) are in walking distance from our home, some are pretty good
+                  (it's of course a matter of opinion) ... here is a short list,
+                  I will put a number next to them to indicate walkability (10=
+                  very walkable, 0=need car, 5=maybe car is best):
+                </PwSpace>
               </li>
             </ul>
           </Col>
