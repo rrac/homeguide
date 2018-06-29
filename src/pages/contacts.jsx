@@ -25,6 +25,24 @@ class Contacts extends Component {
         </Row>
         <Row>
           <Col xs="5" sm="5">
+            <b></b>
+          </Col>
+          <Col xs="7" sm="7">
+            <p>
+              <b>Dr. & Mrs. Jeffrey Cohen</b> are our wonderful veterinary
+              specialist and care takers of our animals. They have everything on
+              file from us. Here is their information:
+            </p>
+            <p>1610 West Coast Hwy</p>
+            <p>Newport Beach, CA 92663</p>
+            <p><a href="tel:(949) 722-8152">Call Office</a> @ (949) 722-8152</p>
+            <p>
+              <a href="mailto:newportvet@aol.com">Dr. Cohen email</a>
+            </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs="5" sm="5">
             <b>Veterinary Care</b>
           </Col>
           <Col xs="7" sm="7">
