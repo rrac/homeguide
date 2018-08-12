@@ -36,10 +36,10 @@ class Access extends Component {
 							black. You will only notice the small silver dot with the name 'Yale'. Touch the silver logo and the touch
 							screen will light up and show the keypad numbers. Enter the 5 last digits of your mobile phone number (for
 							some guests it might be their landline number). Finish by pressing the check-mark in the lower right
-							corner. The door will unlock
+							corner. The door will unlock.
 						</p>
-						<p>To lock the door on the inside, use the analog way (turning the knob)</p>
-						<p>When leaving and if you prefer to lock the door, just touch the Yale logo in the silver dot.</p>
+						<p>To lock the door on the inside, use the analog way (turning the knob).</p>
+						<p>When leaving, and if you prefer to lock the door, just touch the Yale logo in the silver dot.</p>
 					</Col>
 				</Row>
 			</Grid>

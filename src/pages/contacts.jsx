@@ -75,21 +75,8 @@ class Contacts extends Component {
 					</Col>
 					<Col xs="7" sm="7">
 						<p>
-							Ruby, the cat was rescued from the Orange County Animal Shelter in 2006. She was according to her
-							documents between 2 and 4 years old. At likely 16 years of age now, she is more prudent and with her
-							vision slightly diminished, she has a harder time estimating what it takes to either jump over or on to
-							something. She is afraid of loud noises, so if a truck comes up the hill and makes a rucous, she will head
-							for the indoors. She is very loving and will be on the patio when you are. Normally, she will be in the
-							garden for a short while, luxuriating in the sun and then come in and nap. She never crosses the
-							bounderies of the patio and garden. AT THE MOMENT PLEASE KEEP HER INSIDE AT ALL TIMES, PARTICULARLY IN THE
-							EARLY MORNING AND AT DUSK, WHEN THE SUN GOES DOWN. PACKS OF COYOTES HAVE BEEN REPORTED IN THE NEIGHBORHOOD
-							LOOKING FOR DOMESTIC ANIMALS, SMALL DOGS AND CATS. PUT RUBY IN THE BACK AND CLOSE THE DOOR IN THE HALLWAY
-							BETWEEN THE BACK AND THE FRONT OF THE HOUSE. MAKE SURE SHE HAS SOME WATER. A TOWER WITH DRY FOOD IS
-							ALREADY IN PLACE. Please don't ever feel restrained because of the care for the animals, there is
-							sufficient help to jump in and help out, everyone is more than willing to give you a hand.
-						</p>
 						Here are the people you can contact in case you will be leaving the house for more than one day:
-						<p />
+						</p>
 						<p>
 							<b>Ms. Marilynn Keller</b>
 						</p>

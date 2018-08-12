@@ -12,8 +12,8 @@ class BedroomThree extends Component {
           <Col xs="7" sm="7">
             <p>
               Bedroom Three sleeps two. What is initially visible is a "day-bed"
-              that has a trundle underneath, that you can pull out. A large
-              built-in closet to hang your clothes and shelving is available.
+              that has a trundle underneath. The room also includes large
+              built-in closet whit shelving.
             </p>
           </Col>
         </Row>
