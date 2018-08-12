@@ -13,7 +13,7 @@ class Us extends Component {
 						<h3>Jan Connal</h3>
 						<p>
 							I love spending time with my family, friends and pets. And, while I consider myself a “homebody” who
-							enjoys her home, patio garden and neighborhood, I am looking to expand my horizons. Upon retiring from
+							enjoys her home, patio garden and neighborhood, I am looking to expand my horizons. Upon retiring from a
 							39-year career in academia, I am eager for more travel, exercise, volunteer and non-academic learning
 							experiences. Since I love to garden, I especially want to visit gardens near and far. Hidcote in the
 							Cotswolds might be one of my favorites so far.
