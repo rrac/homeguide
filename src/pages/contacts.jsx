@@ -75,7 +75,7 @@ class Contacts extends Component {
 					</Col>
 					<Col xs="7" sm="7">
 						<p>
-						Here is the person you can contact in case you will be leaving the house for more than one day:
+						Here is the person you can contact in case you will be leaving the house for more than one day, while Ruby is at the house:
 						</p>
 						<p>
 							<b>Ms. Marilynn Keller</b>
