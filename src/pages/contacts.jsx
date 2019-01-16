@@ -15,7 +15,7 @@ class Contacts extends Component {
 								facilities are a great improvement, time-zone differences and other aspects of traveling may necessitate
 								contacting alternative, hopefully local resources. Therefore, below a list of contacts aware of our
 								travels and on which you can rely to help you out. Either just to provide you information, taking care
-								of Ruby in your absence or fixing things when things break.
+								of Ruby in your absence, if she is at the house or fixing things when things break.
 							</b>
 						</p>
 					</Col>
@@ -70,12 +70,12 @@ class Contacts extends Component {
 				<Row>
 					<Col xs="5" sm="5">
 						<p>
-							<b>Cat wranglers</b>
+							<b>Cat wrangler(s)</b>
 						</p>
 					</Col>
 					<Col xs="7" sm="7">
 						<p>
-						Here are the people you can contact in case you will be leaving the house for more than one day:
+						Here is the person you can contact in case you will be leaving the house for more than one day:
 						</p>
 						<p>
 							<b>Ms. Marilynn Keller</b>
@@ -87,11 +87,6 @@ class Contacts extends Component {
 							<a href="mailto:kellerma@att.net">Marilynn Keller e-mail</a>
 						</p>
 						<p />
-						<p>
-							<b>Ms. Beth Burrell</b>, Beth lives closeby and can jump in to take care of Ruby when you are running very
-							late or are just gone for a night. Don't hesitate to give her a call when needed.
-						</p>
-						<p>(949) 335-8063</p>
 					</Col>
 				</Row>
 				<Row>
