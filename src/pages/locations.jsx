@@ -121,7 +121,7 @@ class Locations extends Component {
           </Col>
           <Col xs="7" sm="7">
             <p>
-              These are mostly grocery stores, places we shop for out day to day
+              These are mostly grocery stores, places we shop for our day to day
               food items, household items, wine, etc ... Some are in walking
               distance, some are maybe a little further not necessarily because
               of distance but bringing back bags of stuff is not always
@@ -209,7 +209,8 @@ class Locations extends Component {
                   of America down the street on PCH has changed ownership
                   (previous owners were from Toulouse), the quality is just not
                   to my liking ... by all means try it. So I may have to walk a
-                  few blocks further to Rose Cafe to pick up my bakery stuff ...<br />
+                  few blocks further to Rose Cafe to pick up my bakery stuff ...
+                  <br />
                   <ALink
                     href="https://www.rosebakerycafe.net/#breakfast-and-lunch-corona-del-mar"
                     target="_blank"
@@ -227,7 +228,8 @@ class Locations extends Component {
                   little eatery, we sometimes forget about it because it is in
                   an odd location, just off PCH, towards Huntington Beach. The
                   link below takes you to their site (don't go to the one in
-                  Costa Mesa).<br />
+                  Costa Mesa).
+                  <br />
                   <ALink
                     href="https://www.eatchow.com/newport-beach/"
                     target="_blank"
@@ -254,7 +256,8 @@ class Locations extends Component {
                   (a very nice resort completely built in California Crafstman
                   Bungalow Style .. it is a great place to wonder around,
                   overlooking the Pacific Ocean and then, head for La Sirena
-                  Grill, they serve fresh Mex(eco) food:<br />
+                  Grill, they serve fresh Mex(eco) food:
+                  <br />
                   <ALink
                     href="http://www.lasirenagrill.com/SouthLaguna/"
                     target="_blank"
@@ -318,7 +321,8 @@ class Locations extends Component {
                   <b>Live Music places nearby</b>
                 </p>
                 <p>
-                  Check their respective site for program and times<br />
+                  Check their respective site for program and times
+                  <br />
                   <ALink
                     href="https://www.google.com/maps/search/live+music/@33.6148882,-117.8704722,12z"
                     target="_blank"
@@ -337,7 +341,8 @@ class Locations extends Component {
                   for the purpose of housing music, theatre and ballet
                   performances. Not only is the architecture interesting, it has
                   some massive sculptures installed on the different plazas that
-                  surround the area ... worth a visit, even just outside:<br />
+                  surround the area ... worth a visit, even just outside:
+                  <br />
                   <ALink href="https://www.scfta.org/" target="_blank">
                     Our local performing arts center ...
                   </ALink>
