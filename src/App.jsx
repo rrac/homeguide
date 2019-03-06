@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import MyNav from "./components/nav";
+import MyNav from "./components/MyNav";
 import Home from "./pages/home";
 import Us from "./pages/us";
 import Access from "./pages/rooms/access";
@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div>
+        <div className="App">
           <MyNav />
           <Route exact path="/" component={Home} />
           <Route path="/pages/us" component={Us} />
@@ -32,7 +32,10 @@ class App extends Component {
           <Route path="/pages/rooms/dining" component={Dining} />
           <Route path="/pages/rooms/kitchen" component={Kitchen} />
           <Route path="/pages/rooms/masterbedroom" component={MasterBedroom} />
-          <Route path="/pages/rooms/masterbathroom" component={MasterBathroom} />
+          <Route
+            path="/pages/rooms/masterbathroom"
+            component={MasterBathroom}
+          />
           <Route path="/pages/rooms/bedroomtwo" component={BedroomTwo} />
           <Route path="/pages/rooms/bedroomthree" component={BedroomThree} />
           <Route path="/pages/rooms/bathroomtwo" component={BathroomTwo} />
