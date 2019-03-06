@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router-dom";
 import "./mynav.css";
 
-class MyNav extends Component {
+export class MyNav extends Component {
   constructor(props) {
     super(props);
 
@@ -166,5 +166,3 @@ class MyNav extends Component {
     );
   }
 }
-
-export default MyNav;

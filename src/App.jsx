@@ -18,7 +18,7 @@ import Garage from "./pages/rooms/garage";
 import Contacts from "./pages/contacts";
 import Locations from "./pages/locations";
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <Router>
@@ -47,5 +47,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
