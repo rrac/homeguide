@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Our home guide to assist exchange partners.",
   "keywords": [],
-  "main": "src/index.js",
+  "main": "src/index.jsx",
   "dependencies": {
     "bootstrap": "4.3.1",
     "jquery": "3.3.1",
