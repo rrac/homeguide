@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div>
           <MyNav />
           <Route exact path="/" component={Home} />
           <Route path="/pages/us" component={Us} />

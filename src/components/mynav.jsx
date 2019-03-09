@@ -1,16 +1,9 @@
 import React, { Component } from "react";
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  NavItem,
-  MenuItem,
-  Image
-} from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, NavItem, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./mynav.css";
 
-export class MyNav extends Component {
+export default class MyNav extends Component {
   constructor(props) {
     super(props);
 
@@ -46,94 +39,94 @@ export class MyNav extends Component {
                 title="Getting Around"
                 id="basic-nav-dropdown"
               >
-                <MenuItem
+                <NavDropdown.Item
                   eventKey={1.1}
                   componentClass={Link}
                   href="/pages/rooms/access"
                   to="/pages/rooms/access"
                 >
                   Access
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.2}
                   componentClass={Link}
                   href="/pages/rooms/hallway"
                   to="/pages/rooms/hallway"
                 >
                   Hallway
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.3}
                   componentClass={Link}
                   href="/pages/rooms/familyroom"
                   to="/pages/rooms/familyroom"
                 >
                   Family Room
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.4}
                   componentClass={Link}
                   href="/pages/rooms/dining"
                   to="/pages/rooms/dining"
                 >
                   Dining Area
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.5}
                   componentClass={Link}
                   href="/pages/rooms/kitchen"
                   to="/pages/rooms/kitchen"
                 >
                   Kitchen
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.6}
                   componentClass={Link}
                   href="/pages/rooms/masterbedroom"
                   to="/pages/rooms/masterbedroom"
                 >
                   Master Bedroom
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.7}
                   componentClass={Link}
                   href="/pages/rooms/masterbathroom"
                   to="/pages/rooms/masterbathroom"
                 >
                   Master Bathroom
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.8}
                   componentClass={Link}
                   href="/pages/rooms/bedroomtwo"
                   to="/pages/rooms/bedroomtwo"
                 >
                   Bedroom Two
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.9}
                   componentClass={Link}
                   href="/pages/rooms/bedroomthree"
                   to="/pages/rooms/bedroomthree"
                 >
                   Bedroom Three
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.11}
                   componentClass={Link}
                   href="/pages/rooms/bathroomtwo"
                   to="/pages/rooms/bathroomtwo"
                 >
                   Bathroom Two
-                </MenuItem>
-                <MenuItem
+                </NavDropdown.Item>
+                <NavDropdown.Item
                   eventKey={1.12}
                   componentClass={Link}
                   href="/pages/rooms/garage"
                   to="/pages/rooms/garage"
                 >
                   Garage
-                </MenuItem>
+                </NavDropdown.Item>
               </NavDropdown>
               <NavItem
                 eventKey={2}
