@@ -12,11 +12,7 @@
   ],
   "routes": [
     {
-      "src": "/favicon.ico",
-      "dest": "/favicon.ico"
-    },
-    {
-      "src": "/(.*)",
+      "src": "/.*",
       "headers": {
         "cache-control": "s-maxage=0"
       },
