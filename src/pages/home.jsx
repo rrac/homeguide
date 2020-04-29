@@ -30,7 +30,7 @@ class Home extends Component {
         </Jumbotron>
         <Row>
           <Col xs={12} sm={12}>
-            <Image src="/assets/home309c.jpg" responsive />
+            <Image src="/assets/home309c.jpg" responsive="true" />
           </Col>
         </Row>
       </Container>

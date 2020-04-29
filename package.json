@@ -1,8 +1,11 @@
 {
-  "name": "homeguide",
+  "name": "home-guide",
   "version": "1.0.1",
-  "description": "Our home guide to assist exchange partners.",
-  "keywords": [],
+  "description": "Home Guide for Home Exchange Partners",
+  "keywords": [
+    "exchange",
+    "home"
+  ],
   "main": "src/index.jsx",
   "dependencies": {
     "bootstrap": "4.4.1",
