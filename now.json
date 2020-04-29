@@ -3,14 +3,14 @@
   "name": "HomeGuide",
   "builds": [
     {
-      "src": "package.json",
+      "src": "index.jsx",
       "use": "@now/static"
     }
   ],
   "routes": [
     {
-      "src": "/public/index.html",
-      "dest": "./"
+      "src": "/(.*)",
+      "dest": "/index.js"
     }
   ]
 }
