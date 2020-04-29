@@ -2,10 +2,7 @@
   "name": "home-guide",
   "version": "1.0.1",
   "description": "Home Guide for Home Exchange Partners",
-  "keywords": [
-    "exchange",
-    "home"
-  ],
+  "keywords": ["exchange", "home"],
   "main": "src/index.jsx",
   "dependencies": {
     "bootstrap": "4.4.1",
@@ -22,7 +19,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "now-build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
