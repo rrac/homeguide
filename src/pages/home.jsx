@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Row, Col, Image, Jumbotron } from "react-bootstrap";
+import { Container, Row, Col, Image, Jumbotron } from "react-bootstrap";
 import styled from "styled-components";
 
 const JumboH1 = styled.div`
@@ -18,9 +18,9 @@ const JumboP = styled.p`
 class Home extends Component {
   render() {
     return (
-      <Grid>
+      <Container>
         <Jumbotron>
-            <JumboH1>Welcome to Our Home</JumboH1>
+          <JumboH1>Welcome to Our Home</JumboH1>
           <JumboP>
             This web-based guide aims at providing you with both a visual and
             written document of the features (and quirks) of our home, its
@@ -33,7 +33,7 @@ class Home extends Component {
             <Image src="/assets/home309c.jpg" responsive />
           </Col>
         </Row>
-      </Grid>
+      </Container>
     );
   }
 }

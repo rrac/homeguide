@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Grid, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 class BedroomTwo extends Component {
   render() {
     return (
-      <Grid>
+      <Container>
         <Row>
           <Col xs="5" sm="5">
             <Image src="/assets/bedroom2_1.png" thumbnail />
@@ -18,7 +18,7 @@ class BedroomTwo extends Component {
             </p>
           </Col>
         </Row>
-      </Grid>
+      </Container>
     );
   }
 }

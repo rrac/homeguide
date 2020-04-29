@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Grid, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 class Contacts extends Component {
   render() {
     return (
-      <Grid>
+      <Container>
         <Row>
           <Col xs="5" sm="5" />
           <Col xs="7" sm="7">
@@ -205,7 +205,7 @@ class Contacts extends Component {
             </p>
           </Col>
         </Row>
-      </Grid>
+      </Container>
     );
   }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import styled from "styled-components";
 
 const ALink = styled.a`
@@ -35,7 +35,7 @@ const PwSpace = styled.p`
 class Locations extends Component {
   render() {
     return (
-      <Grid>
+      <Container>
         <Row>
           <Col xs="5" sm="5">
             <p />
@@ -448,7 +448,7 @@ class Locations extends Component {
             </ul>
           </Col>
         </Row>
-      </Grid>
+      </Container>
     );
   }
 }
