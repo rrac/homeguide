@@ -6,11 +6,5 @@
       "src": "public/index.html",
       "use": "@now/static"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "public/index.html"
-    }
   ]
 }
