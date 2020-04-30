@@ -5,14 +5,14 @@ import styled from "styled-components";
 const JumboH1 = styled.div`
   text-align: center;
   font-family: "Roboto";
-  font-size: 3em
+  font-size: 3em;
   font-weight: 900;
 `;
 
 const JumboP = styled.p`
   text-align: center;
-  text-weight: 100;
-  text-color: grey;
+  text-decoration-color: grey;
+  size: 100;
 `;
 
 class Home extends Component {
@@ -29,8 +29,8 @@ class Home extends Component {
           </JumboP>
         </Jumbotron>
         <Row>
-          <Col xs={12} sm={12}>
-            <Image src="/assets/home309c.jpg" responsive="true" />
+          <Col>
+            <Image src="/assets/home309c.jpg" />
           </Col>
         </Row>
       </Container>

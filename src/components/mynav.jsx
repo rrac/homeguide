@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav, NavDropdown, NavItem, Image } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown, NavItem } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./mynav.css";
 
@@ -21,13 +21,9 @@ export default class MyNav extends Component {
   render() {
     return (
       <div className="MyNav">
-        <Navbar fixed="top" collapseOnSelect>
-          <Navbar.Brand>
-            <div>
-              <Link to="/">
-                <Image src="/assets/home.png" />
-              </Link>
-            </div>
+        <Navbar fixed="top" expand>
+          <Navbar.Brand href="/">
+            <img src="./assets/home.png" className="d-inline-block" />
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse>
