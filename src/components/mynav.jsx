@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, Nav, NavDropdown, NavItem } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./mynav.css";
 
 export default class MyNav extends Component {
@@ -20,95 +19,58 @@ export default class MyNav extends Component {
   }
   render() {
     return (
-      <div className="MyNav">
-        <Navbar fixed="top" expand>
-          <Navbar.Brand href="/">
-            <img src="./assets/home.png" className="d-inline-block" />
-          </Navbar.Brand>
-          <Navbar.Toggle />
-          <Navbar.Collapse>
-            <Nav>
-              <NavDropdown title="Getting Around" id="basic-nav-dropdown">
-                <NavDropdown.Item
-                  href="/pages/rooms/access"
-                  to="/pages/rooms/access"
-                >
-                  Access
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/hallway"
-                  to="/pages/rooms/hallway"
-                >
-                  Hallway
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/familyroom"
-                  to="/pages/rooms/familyroom"
-                >
-                  Family Room
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/dining"
-                  to="/pages/rooms/dining"
-                >
-                  Dining Area
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/kitchen"
-                  to="/pages/rooms/kitchen"
-                >
-                  Kitchen
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/masterbedroom"
-                  to="/pages/rooms/masterbedroom"
-                >
-                  Master Bedroom
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/masterbathroom"
-                  to="/pages/rooms/masterbathroom"
-                >
-                  Master Bathroom
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/bedroomtwo"
-                  to="/pages/rooms/bedroomtwo"
-                >
-                  Bedroom Two
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/bedroomthree"
-                  to="/pages/rooms/bedroomthree"
-                >
-                  Bedroom Three
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/bathroomtwo"
-                  to="/pages/rooms/bathroomtwo"
-                >
-                  Bathroom Two
-                </NavDropdown.Item>
-                <NavDropdown.Item
-                  href="/pages/rooms/garage"
-                  to="/pages/rooms/garage"
-                >
-                  Garage
-                </NavDropdown.Item>
-              </NavDropdown>
-              <NavItem href="/pages/us" to="/pages/us">
-                Us
-              </NavItem>
-              <NavItem href="/pages/contacts" to="/pages/contacts">
-                Contacts
-              </NavItem>
-              <NavItem href="/pages/locations" to="/pages/locations">
-                Locations
-              </NavItem>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-      </div>
+      <Navbar collapseOnSelect fixed="top" expand="lg">
+        <Navbar.Brand href="/">
+          <img
+            src="./assets/home.png"
+            className="d-inline-block align-top"
+            alt="Home Logo"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            <NavDropdown title="Getting Around" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="/pages/rooms/access">
+                Access
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/hallway">
+                Hallway
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/familyroom">
+                Family Room
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/dining">
+                Dining Area
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/kitchen">
+                Kitchen
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/masterbedroom">
+                Master Bedroom
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/masterbathroom">
+                Master Bathroom
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/bedroomtwo">
+                Bedroom Two
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/bedroomthree">
+                Bedroom Three
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/bathroomtwo">
+                Bathroom Two
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/pages/rooms/garage">
+                Garage
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="/pages/us">Us</Nav.Link>
+            <Nav.Link href="/pages/contacts">Contacts</Nav.Link>
+            <Nav.Link href="/pages/locations">Locations</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     );
   }
 }
