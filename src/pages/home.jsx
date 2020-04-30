@@ -18,7 +18,7 @@ const JumboP = styled.p`
 class Home extends Component {
   render() {
     return (
-      <Container>
+      <Container fluid>
         <Jumbotron>
           <JumboH1>Welcome to Our Home</JumboH1>
           <JumboP>
